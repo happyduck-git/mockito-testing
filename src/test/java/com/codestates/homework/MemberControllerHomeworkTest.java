@@ -49,8 +49,7 @@ public class MemberControllerHomeworkTest {
 
     @Test
     void postMemberTest() throws Exception {
-        // TODO MemberController의 postMember() 핸들러 메서드를 테스트하는 테스트 케이스를 여기에 작성하세요.
-        // TODO Mockito를 사용해야 합니다. ^^
+
         //given
         MemberDto.Post post = new MemberDto.Post(
                 "gg@gmail.com",
@@ -91,7 +90,6 @@ public class MemberControllerHomeworkTest {
 
     @Test
     void patchMemberTest() throws Exception {
-        // TODO MemberController의 patchMember() 핸들러 메서드를 테스트하는 테스트 케이스를 여기에 작성하세요.
 
         //given
         Long memberId = 1L;
@@ -132,7 +130,6 @@ public class MemberControllerHomeworkTest {
 
     @Test
     void getMemberTest() throws Exception {
-        // TODO MemberController의 getMember() 핸들러 메서드를 테스트하는 테스트 케이스를 여기에 작성하세요.
 
         //given
         Long memberId = 1L;
@@ -164,7 +161,7 @@ public class MemberControllerHomeworkTest {
 
     @Test
     void getMembersTest() throws Exception {
-        // TODO MemberController의 getMembers() 핸들러 메서드를 테스트하는 테스트 케이스를 여기에 작성하세요.
+
         //given
         Member member1 = new Member("hdg@hmail.com", "HGD1", "010-1111-1111");
         member1.setStamp(new Stamp());
@@ -214,7 +211,6 @@ public class MemberControllerHomeworkTest {
 
     @Test
     void deleteMemberTest() throws Exception {
-        // TODO MemberController의 deleteMember() 핸들러 메서드를 테스트하는 테스트 케이스를 여기에 작성하세요.
 
         //given
         Long memberId = 1L;
